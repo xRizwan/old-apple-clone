@@ -1,0 +1,124 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #ECEEF1;
+    padding: 0;
+    margin: 0;
+}
+.bordered{
+    border: 1px solid black;
+}
+.nav-container{
+    background-image: url("images/verse.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 540px;
+    margin-bottom: 0;
+}
+.inner-container{
+    width: 900px;
+    height: 35px;
+    background: linear-gradient(to bottom, rgb(155, 154, 154), rgb(88, 88, 88),rgb(155, 154, 154));
+    margin: 0 auto;
+    display: flex;
+    border-radius: 5px;
+    position: relative;
+    top: 30px;
+}
+.navitem{
+    width: 100px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    border-left: 1px solid black;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navtext{
+    position: relative;
+    top: 6px;
+}
+.navsearch{
+    border: none;
+    position: relative;
+    top: 5px;
+    width: 90px;
+    background-color: rgb(88, 88, 88);
+    color: white;
+}
+.search-container{
+    display: flex;
+    width: 150px;
+}
+.search-input{
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.s-icon{
+    position: relative;
+    top: 7px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+.navitem:hover{
+    background-color: rgb(43, 43, 43);
+}
+.navitem:last-of-type(){
+    border: 10px solid black;
+}
+.verse, .verse2, .verse3{
+    width: fit-content;
+    max-width: 700px;
+    color: white;
+    margin: 0 auto;
+    font-size: 4em;
+    font-weight: 100;
+    margin-top: 80px;
+}
+.verse2, .verse3{
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    max-width: 830px;
+}
+.verse3{
+    font-size: 1.7em;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.verse3:hover{
+    text-decoration: underline;
+}
+.grid-container{
+    display: flex;
+    margin-top: 0;
+}
+.fit-image{
+    object-fit: cover;
+}
+
+footer > .grid-container{
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.copyright, .links{
+    width: 500px;
+    font-size: 11px;
+    line-height: 25px;
+    padding: 20px;
+}
+.copyright{
+    padding-right: 0px;
+}
+.link{
+    padding-left: 0px;
+}
+.link{
+    color: dodgerblue;
+}
